@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_listar_anuncios"
+        android:title="Anúncios"
+        android:icon="@drawable/ic_filter_list_white_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_novo_anuncio"
+        android:title="Novo"
+        android:icon="@drawable/ic_add_white_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_chat"
+        android:title="Mensagens"
+        android:icon="@drawable/ic_chat_bubble_white_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_minha_conta"
+        android:title="Minha conta"
+        android:icon="@drawable/ic_person_white_24dp"
+        />
+
+    <item
+        android:id="@+id/menu_configuracoes"
+        android:title="Configurações"
+        android:icon="@drawable/ic_settings_white_24dp"
+        />
+
+</menu>

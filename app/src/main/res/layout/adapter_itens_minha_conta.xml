@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_margin="8dp">
+
+        <TextView
+            android:id="@+id/text_view_item_opcao_minha_conta"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:paddingBottom="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="32dp"
+            android:paddingTop="8dp"
+            android:text="Meus anuncios"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_weight="2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/edittext_rounded_corners"
+            android:padding="8dp"
+            android:text="0"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/text_view_item_qtd_minha_conta" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignBottom="@+id/text_view_item_qt1_minha_conta"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_navigate_next_black_24dp"
+            android:tint="#666666" />
+
+    </LinearLayout>
+
+</RelativeLayout>

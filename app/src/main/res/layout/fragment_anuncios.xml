@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <EditText
+            android:id="@+id/editTextFiltro"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp"
+            android:layout_weight="2"
+            android:background="@drawable/edittext_rounded_corners"
+            android:hint="Buscar"
+            android:lines="1"
+            android:maxLines="1"
+            android:paddingLeft="8dp"
+            android:textColor="#ffffff"
+            android:textColorHint="#cccccc" />
+
+        <ImageButton
+            android:id="@+id/imageButtonBuscar"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="16dp"
+            android:src="@drawable/ic_search_white_36dp" />
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listAnuncioListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout5"
+        android:layout_gravity="center_horizontal"
+        android:divider="@color/dividerColor"
+        android:dividerHeight="1px"
+        tools:listitem="@layout/adapter_anuncio" />
+
+    <TextView
+        android:id="@+id/listAnuncioTextViewVazio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Nenhum anúncio encontrado =("
+        android:textSize="20sp"
+        android:visibility="visible" />
+</RelativeLayout>

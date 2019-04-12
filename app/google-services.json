@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "125251798441",
+    "project_id": "findauto-161020"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125251798441:android:7f6ab6d0df94147c",
+        "android_client_info": {
+          "package_name": "br.edu.fatecourinhos.findauto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCu2IIKah3MoNytDrlj0Qwx3MPGu7Ab16c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-98581000-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#323e41</color>
+    <color name="colorPrimary">#3B494C</color>
+    <color name="colorPrimaryLight2">#586a6e</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorAccent">#009688</color>
+    <color name="colorAccentLigth">#00c7b5</color>
+    <color name="textColorPrimary">#212121</color>
+    <color name="textColorSecondary">#727272</color>
+    <color name="dividerColor">#a6a6a6</color>
+
+    <color name="money">#3dd268</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="list_divider">#dedede</color>
+    <color name="bg_bubble_self">#E1E1E1</color>
+
+    <color name="black_alpha_40">#66000000</color>
+</resources>
